@@ -8,7 +8,7 @@ urlpatterns = [
     # url(r'^$', 'TPL_Accounting.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     # admin/
-    url(r'^', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('accounting.apps.connect.urls',
         namespace="connect")),
     url(r'^books/', include('accounting.apps.books.urls',

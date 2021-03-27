@@ -109,6 +109,22 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv3.4/
+venv3.7/
+venv3.8/
+
+venv3.4
+venv3.7
+venv3.8
+
+
+/venv3.4
+/venv3.7
+/venv3.8
+
+dj
+/dj
+dj/
 
 # Spyder project settings
 .spyderproject
